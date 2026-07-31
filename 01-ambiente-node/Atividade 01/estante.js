@@ -11,5 +11,12 @@ autor: "Jenny Han",
 preco: 79.99,
 estoque: 6,
 };
+
+const livro3 = {
+titulo: "O pequeno principe",
+autor: "Antoine de Saint-Exupery",
+preco: 90.9,
+estoque: 4,
+};
 // Esta linha entrega os dois livros para os outros arquivos usarem
-module.exports = { livro1, livro2 };
+module.exports = { livro1, livro2, livro3 };
